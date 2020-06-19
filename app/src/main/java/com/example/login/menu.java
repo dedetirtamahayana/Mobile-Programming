@@ -13,16 +13,16 @@ public class menu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
     }
-    public void segitiga(View view) {
-        Intent intent = new Intent(menu.this,segitiga.class);
+    public void mahasiswa(View view) {
+        Intent intent = new Intent(menu.this,mahasiswa.class);
         startActivity(intent);
     }
-    public void persegi(View view) {
-        Intent intent = new Intent(menu.this,persegi.class);
+    public void dosen(View view) {
+        Intent intent = new Intent(menu.this,dosen.class);
         startActivity(intent);
     }
-    public void kubus(View view) {
-        Intent intent = new Intent(menu.this,kubus.class);
+    public void about(View view) {
+        Intent intent = new Intent(menu.this,about.class);
         startActivity(intent);
     }
     public void logout(View view) {
